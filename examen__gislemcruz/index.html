@@ -1,0 +1,168 @@
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Examen2_app</title>
+<link href="css/framework7.min.css" rel="stylesheet">
+<link href="css/material-icons.css" rel="stylesheet">
+<link href="css/f7-icons.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+	
+<body class="color-theme-orange">
+    
+    <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+      
+      	<section class="panel panel-left panel-cover">
+			<h3 class="block-title">Mundo natural</h3>
+			<div class="block">
+				<article class="list">
+					<ul>s
+						<li>
+							<a href="/plants.html" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fab fa-pagelines"></i>
+								</div>
+								<div class="item-inner">
+								  Plantas para jardin
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/flores.html" class="item-link item-content panel-close">
+								<div class="item-media">
+								<i class="fas fa-sun"></i> 
+								</div>
+								<div class="item-inner">
+									Flores
+								</div>
+							</a>
+						</li>
+						<li>
+				<li>
+		
+				 <a href="/herramientas-tabs.html" class="item-link item-content panel-close">
+								<div class="item-media">
+								 <i class="fas fa-screwdriver"></i>
+								</div>
+								<div class="item-inner">
+									Herramientas para jardin
+								</div>
+							</a>
+						</li>
+			
+				<li>
+				 <a href=contacto.html class="item-link item-content panel-close">
+								<div class="item-media">
+								 <i class="fas fa-contacto"></i>
+								</div>
+								<div class="item-inner">
+									contacto
+								</div>
+							</a>
+						</li>
+					</ul>
+				</article>
+				
+			</div>
+		</section>
+      
+
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+                <div class="left">
+                	<a href="#" class="link panel-open" data-panel="left"><i class="material-icons">Bienvenidos</i></a>
+                </div>
+                <div class="title">Mundo natural</div>
+            </div>
+          </nav>
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+            
+              <!--<h2 class="block-title">Tìtulo de Contenido</h2>
+              <div class="block block-strong">
+                  <p>Texto de contenido</p>
+              </div>-->
+			  
+              <article class="bg-plantas">
+                <a href="/plants.html">
+                      <div class="overlay"></div>
+                      <div class="texto">
+                          <h2>Plantas para jardin</h2>
+                          <p> Tu conexión con la naturaleza</p>
+                      </div> 
+                </a>
+              </article>
+			  
+              <article class="bg-flores">
+				  <a href="/flores.html">
+					  <div class="overlay"></div>
+                      <div class="texto">
+                          <h2>Flores</h2>
+                          <p> Color, aroma y esencia</p>
+                      </div>        
+				  
+              <article class="bg-herramientas">
+				  <a href= "/herramientas-tabs.html">
+                      <div class="overlay"></div>
+                      <div class="texto">
+                        <blockquote>
+                          <blockquote>
+                            <h2>Herramientas</h2>
+                          </blockquote>
+                        </blockquote>
+                        <p> Todo lo que necesitas para tu jardin</p>
+                      </div>        
+              </article>
+     
+              
+          </div><!-- /page-content -->
+            
+        </section>
+          
+          
+      </div>
+    </div>
+    
+    
+    
+    <article class="popup popup-confirm">
+		
+		<div class="view">
+			<div class="page">
+			  <div class="page-content">
+					
+					<div class="block">
+					
+						<div class="icon-done">
+							<i class="material-icons">done</i>
+						</div>
+						
+						<p> Estas haciendo el proceso para la compra de nuestros productos</p>
+						
+						<div class="row">
+							<a href="/home/" class="link button button-fill btn-verde popup-close"> Gracias por tu orden</a>
+							<a href="/plants/" class="link button btn-gris popup-close">Continuar la compra</a>
+						</div>
+						
+				  	</div>
+					
+			  </div>
+			</div>
+	
+	</article>
+    
+    
+    <script src="js/framework7.min.js"></script>
+    <script src="js/my-app.js"></script>
+    
+</body>
+</html>
